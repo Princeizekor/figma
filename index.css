@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 * {
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
 }
 .wrapper {
     width: 100%;
@@ -12,7 +16,7 @@
     width: 50%;
 }
 .flat img {
-    height: 650px;
+    height: 700px;
     width: 100%;
     position: relative;
     object-fit: cover;
@@ -23,7 +27,6 @@
     left: 10.76%;
     right: 58.06%;
     top: 75%;
-    font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 36px;
@@ -40,8 +43,16 @@
     width: 50%;
     flex-direction: column;
 }
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    height: 700px;
+    opacity: 90%;
+}
 .wrapper1 h1 {
-    font-family: 'Roobert';
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -50,7 +61,6 @@ color: #272262;
 }
 .wrapper1 p {
     margin-top: 10px;
-    font-family: 'Roobert';
 font-style: normal;
 font-weight: 300;
 font-size: 26px;
@@ -64,7 +74,6 @@ color: rgba(40, 44, 64, 0.6);
     margin-top: 25px;
 }
 .wrapper3 p {
-    font-family: 'Roobert';
 font-style: normal;
 font-weight: 500;
 font-size: 20px;
@@ -74,9 +83,7 @@ color: #82869A;
 .wrapper3 input {
     width: 280px;
     height: 32px;
-    font-family: 'Roobert';
     font-style: normal;
-    font-weight: 600;
     font-size: 24px;
     line-height: 110%;
     color: rgba(130, 134, 154, 0.5);
@@ -86,7 +93,6 @@ color: #82869A;
     margin-top: 10px;
 }
 .wrapper3 input:focus {
-    font-family: 'Roobert';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -98,7 +104,6 @@ color: #82869A;
     margin-top: 25px;
 }
 .wrapper4 p {
-    font-family: 'Roobert';
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
@@ -108,7 +113,6 @@ color: #82869A;
 .wrapper4 input {
     width: 100%;
     height: 32px;
-    font-family: 'Roobert';
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
@@ -121,7 +125,6 @@ color: #82869A;
 }
 .wrapper4 input:focus {
     border-bottom: 3.3px solid #272262;
-    font-family: 'Roobert';
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
@@ -160,6 +163,7 @@ color: #82869A;
     position: absolute;
     top: 0;
     left: 0;
+    border-radius: 5px;
     height: 25px;
     width: 25px;
     background-color: #eee;
@@ -203,7 +207,6 @@ color: #82869A;
     border-radius: 5px;
 }
 .wrapper6 p {
-    font-family: 'Roobert';
     font-style: normal;
     font-weight: 600;
     font-size: 30px;
@@ -231,7 +234,6 @@ color: #82869A;
     color: #3db0ff;
 }
 .wrapper8 p {
-    font-family: 'Roobert';
     font-style: normal;
     font-weight: 400;
     font-size: 21px;
@@ -252,10 +254,17 @@ color: #82869A;
     margin-left: 30px;
     background: rgba(196, 196, 196, 0.5);
 }
+.wrapper11 {
+    display: none;
+}
 @media screen and (max-width: 767px) {
     .wrapper {
         display: flex;
         flex-direction: column;
+    }
+    .wrapper1 p {
+        font-size: 23px;
+        font-weight: 400;
     }
     .wrap1 {
         width: 100%;
@@ -267,7 +276,7 @@ color: #82869A;
         top: 0;
         width: 100%;
         height: 100%;
-        opacity: 50%;
+        opacity: 90%;
     }
     .flat {
         position: relative;
@@ -275,6 +284,7 @@ color: #82869A;
     }
     .flat img {
         width: 100%;
+        height: 500px;
         object-fit: cover;
     }
     .wrap {
@@ -293,10 +303,9 @@ color: #82869A;
     }
     .wrap2 {
         height: 172px;
-        left: 10%;
+        left: 5%;
         right: 58.06%;
-        top: 45%;
-        font-family: 'Poppins';
+        top: 35%;
         font-style: normal;
         font-weight: 400;
         font-size: 36px;
@@ -308,16 +317,49 @@ color: #82869A;
         flex-wrap: wrap;
         position: absolute;
     }
+    .checkmark {
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 5px;
+        height: 20px;
+        width: 20px;
+        background-color: #eee;
+      }
     .wrapper5 {
         flex-direction: row;
-        font-size: 18px;
+    }
+    .wrapper5 p {
+        font-size: 16px;
+    }
+    .wrapper5 label {
+        font-size: 16px;
     }
     .wrapper8 {
-        flex-direction: column;
+        justify-content: center;
         text-align: center;
+        width: 100%;
+        margin-top: 10px;
+    }
+    .wrapper6 p {
+        font-size: 20px;
     }
     .wrapper8 p {
-        font-size: 15px;
+        font-size: 20px;
+        margin-right: 5px;
+    }
+    .wrapper9 {
+        display: none;
+    }
+    .wrapper10 {
+        display: none;
+    }
+    .wrapper11 {
+        width: 100%;
+        height: 1px;
+        margin-top: 10px;
+        background: rgba(196, 196, 196, 0.5);
+        display: block;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -327,9 +369,8 @@ color: #82869A;
     .wrap2 {
         height: 172px;
         left: 2%;
-        right: 10%;
-        top: 45%;
-        font-family: 'Poppins';
+        right: 5%;
+        top: 40%;
         font-style: normal;
         font-weight: 400;
         font-size: 36px;
@@ -356,16 +397,31 @@ color: #82869A;
         padding: 5px;
     }
     .wrapper8 {
-        flex-direction: column;
+        justify-content: center;
         text-align: center;
     }
     .wrapper8 p {
         font-size: 18px;
+        margin-top: 10px;
+        margin-right: 5px;
     }
     .wrapper4 {
         width: 100%
     }
     .wrapper4 input {
         width: 100%;
+    }
+    .wrapper9 {
+        display: none;
+    }
+    .wrapper10 {
+        display: none;
+    }
+    .wrapper11 {
+        width: 100%;
+        height: 1px;
+        margin-top: 10px;
+        background: rgba(196, 196, 196, 0.5);
+        display: block;
     }
 }

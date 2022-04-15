@@ -1,0 +1,667 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-columns: 320px  auto;
+}
+.wrapper {
+    position: relative;
+    width: 320px;
+    height: 1695px;
+    left: 0px;
+    top: -0.5px;
+    background: #F9F9F9;
+}
+.wrapper1 {
+    background-image: url("./images/background.jpg");
+    position: absolute;
+    height: 70px;
+    left: 5%;
+    right: 5%;
+    top: 3%;
+    bottom: 92%;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+}
+.wrapper1 .wrap1 {
+    position: absolute;
+    left: 5%;
+    right: 0.63%;
+    top: 10.03%;
+    bottom: -93.67%;
+    background: #810EA8;
+}
+.wrapper1 .wrap2 {
+    position: absolute;
+    left: 34.49%;
+    right: 24.4%;
+    top: 30.12%;
+    bottom: 30.87%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    color: #3A3A3A;
+}
+.wrapper1 .wrap3 {
+    position: absolute;
+    left: 90%;
+    right: 5%;
+    top: 40%;
+    bottom: 20%;
+    background: #76C3FC;
+}
+.wrapper2 {
+    background-image: url("./images/background\ \(1\).jpg");
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 10%;
+    bottom: 92%;
+    background: #F9F9F9;
+}
+.wrapper2 .wrap4 {
+    position: absolute;
+    left: 15%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #C4C4C4;
+}
+.wrapper2 .wrap5 {
+    position: absolute;
+    left: 46.09%;
+    right: 28.7%;
+    top: 35%;
+    bottom: 35%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #C4C4C4;
+}
+.wrapper3 {
+    background-image: url("./images/background\ \(1\).jpg");
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 15%;
+    bottom: 92%;
+    background: #F9F9F9;
+}
+.wrapper3 .wrap6 {
+    position: absolute;
+    left: 15%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #C4C4C4;
+}
+.wrapper3 .wrap7 {
+    position: absolute;
+    left: 46.09%;
+    right: 23.77%;
+    top: 32.5%;
+    bottom: 37.5%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #BFBFBF;
+}
+.wrapper4 {
+    background-image: url("./images/background\ \(1\).jpg");
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 20%;
+    bottom: 92%;
+    background: #F9F9F9;
+}
+.wrapper4 .wrap8 {
+    position: absolute;
+    left: 15%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #C4C4C4;
+}
+.wrapper4 .wrap9 {
+    position: absolute;
+    left: 46.09%;
+    right: 23.77%;
+    top: 32.5%;
+    bottom: 37.5%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #BFBFBF;
+}
+.wrapper5 {
+    background-image: url("./images/background\ \(2\).jpg");
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    top: 25%;
+    bottom: 92%;
+    background: #F9F9F9;
+}
+.wrapper5 .wrap10 {
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 9%;
+    right: 62.46%;
+    top: 0%;
+    bottom: 60%;
+    background: #081494;
+    box-shadow: 0px 16px 31px rgba(0, 96, 137, 0.16);
+    border-radius: 67px;
+}
+.wrapper5 .wrap11 {
+    position: absolute;
+    left: 25.3%;
+    right: 68.84%;
+    top: 30.25%;
+    bottom: 76.61%;
+    background: #081494;
+}
+.wrapwrap1 {
+    display: flex;
+}
+.wrapwrap1 .wrapwrap {
+    margin-left: 83%;
+    right: 0%;
+    margin-top: 9%;
+    bottom: 12.5%;
+    background: #D3D6E4;
+    /* transform: rotate(90deg); */
+
+}
+.rate {
+    display: flex;
+    flex-direction: column;
+}
+.rate .wrap12 {
+    position: absolute;
+    left: 45.94%;
+    right: 26.81%;
+    margin-top: 6%;
+    top: 12.75%;
+    bottom: 75.25%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+
+    color: #000000;
+}
+.rate .wrap13 {
+    margin-left: 46%;
+    margin-top: 20%;
+    position: absolute;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #081494;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.rate .wrap14 {
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 30%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #8C8C8C;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.rate .wrap15 {
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 40%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #8C8C8C;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+.wrapper6 {
+    background-image: url("./images/background\ \(1\).jpg");
+    position: absolute;
+    left: 15%;
+    right: 5%;
+    top: 39%;
+    bottom: 92%;
+    background: #F9F9F9;
+}
+.wrapper6 .card {
+    position: absolute;
+    left: 4%;
+    right: 6%;
+    top: 2%;
+    bottom: 6%;
+    background: #BFBFBF;
+}
+.wrapper6 .card1 {
+    position: absolute;
+    left: 39%;
+    right: 23.48%;
+    top: 32.5%;
+    bottom: 37.5%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #BFBFBF;
+}
+.wrapper7 {
+    background-image: url("./images/background\ \(1\).jpg");
+    position: absolute;
+    left: 15%;
+    right: 5%;
+    top: 44%;
+    bottom: 92%;
+    background: #F9F9F9;
+}
+.wrapper7 .card2 {
+    position: absolute;
+    left: 4%;
+    right: 6%;
+    top: 2%;
+    bottom: 6%;
+    background: #BFBFBF;
+}
+.wrapper7 .card3 {
+    position: absolute;
+    left: 39%;
+    right: 23.48%;
+    top: 32.5%;
+    bottom: 37.5%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #BFBFBF;
+}
+.wrapper8 {
+    background-image: url("./images/background\ \(1\).jpg");
+    position: absolute;
+    left: 15%;
+    right: 5%;
+    top: 49%;
+    bottom: 92%;
+    background: #F9F9F9;
+}
+.wrapper8 .card4 {
+    position: absolute;
+    left: 4%;
+    right: 6%;
+    top: 2%;
+    bottom: 6%;
+    background: #BFBFBF;
+}
+.wrapper8 .card5 {
+    position: absolute;
+    left: 39%;
+    right: 23.48%;
+    top: 32.5%;
+    bottom: 37.5%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #BFBFBF;
+}
+.wrapper9 {
+    background-image: url("./images/background\ \(1\).jpg");
+    position: absolute;
+    left: 15%;
+    right: 5%;
+    top: 53.70%;
+    bottom: 92%;
+    background: #F9F9F9;
+}
+.wrapper9 .card6 {
+    position: absolute;
+    left: 4%;
+    right: 6%;
+    top: 2%;
+    bottom: 6%;
+    background: #BFBFBF;
+}
+.wrapper9 .card7 {
+    position: absolute;
+    left: 39%;
+    right: 23.48%;
+    top: 32.5%;
+    bottom: 37.5%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #BFBFBF;
+}
+.wrapper10 {
+    background-image: url("./images/background\ \(1\).jpg");
+    position: absolute;
+    left: 15%;
+    right: 5%;
+    top: 59.70%;
+    bottom: 92%;
+    background: #F9F9F9;
+}
+.wrapper10 .card8 {
+    position: absolute;
+    left: 4%;
+    right: 6%;
+    top: 2%;
+    bottom: 6%;
+    background: #BFBFBF;
+}
+.wrapper10 .card9 {
+    position: absolute;
+    left: 39%;
+    right: 23.48%;
+    top: 32.5%;
+    bottom: 37.5%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #BFBFBF;
+}
+.wrapper11 {
+    background-image: url("./images/background\ \(1\).jpg");
+    position: absolute;
+    left: 15%;
+    right: 5%;
+    top: 66.50%;
+    bottom: 92%;
+    background: #F9F9F9;
+}
+.wrapper11 .card10 {
+    position: absolute;
+    left: 4%;
+    right: 6%;
+    top: 2%;
+    bottom: 6%;
+    background: #BFBFBF;
+}
+.wrapper11 .card11 {
+    position: absolute;
+    left: 39%;
+    right: 23.48%;
+    top: 32.5%;
+    bottom: 37.5%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #BFBFBF;
+}
+.wrapper12 {
+    background-image: url("./images/background\ \(1\).jpg");
+    position: absolute;
+    left: 15%;
+    right: 5%;
+    top: 79.50%;
+    bottom: 92%;
+    background: #F9F9F9;
+}
+.wrapper12 .card12 {
+    position: absolute;
+    left: 4%;
+    right: 6%;
+    top: 2%;
+    bottom: 6%;
+    background: #BFBFBF;
+}
+.wrapper12 .card13 {
+    position: absolute;
+    left: 39%;
+    right: 23.48%;
+    top: 32.5%;
+    bottom: 37.5%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.wrapper13 {
+    position: absolute;
+    width: 303.43px;
+    height: 73px;
+    left: calc(50% - 303.43px/2);
+    top: 86%;
+    background: #081494;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+}
+.wrapper13 .card14 {
+    position: absolute;
+    left: 5%;
+    right: 0%;
+    top: 25%;
+    bottom: 12.5%;
+    background-color: #081494;
+}
+.wrapper13 .card15 {
+    position: absolute;
+    width: 207px;
+    height: 32px;
+    left: calc(50% - 207px/2 + 34.22px);
+    top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.bg {
+    position: relative;
+    background: #F9F9F9;
+    min-height: 100vh;
+    min-width: 100%;
+}
+.div {
+    position: relative;
+    width: 100%;
+    height: 100px;
+}
+.pro {
+    position: relative;
+    border: 0.5px solid #C7CFD6;
+    border-radius: 50px;
+    box-shadow: 0.5px 0.5px blanchedalmond;
+    padding: 20px;
+    width: 30px;
+    height: 30px;
+    left: 67%;
+    top: 30%;
+}
+.div1 {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 25%;
+    top: 25%;
+    background: #F9F9F9;
+}
+.div2 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 73%;
+    top: 25%;
+    background: #091E46;
+    border-radius: 100px;
+}
+.div3 {
+    position: absolute;
+    width: 77px;
+    height: 25px;
+    left: 780px;
+    top: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+    color: #091E46;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 32px;
+}
+.div4 {
+    position: absolute;
+    width: 13.05px;
+    height: 6.52px;
+    left: 85%;
+    top: 50%;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 32px;
+}
+.div5 {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+.read1 {
+    position: absolute;
+    width: 348.15px;
+    height: 37.84px;
+    left: 5%;
+    top: 9%;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #0A043C;
+}
+.read2 {
+    position: absolute;
+    width: 207px;
+    height: 20px;
+    left: 5%;
+    top: 14%;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #304156;
+}
+.read3 {
+    position: absolute;
+    width: 207px;
+    height: 20px;
+    left: 600px;
+    top: 245px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #304156;
+}
+.read4 {
+    position: absolute;
+    width: 207px;
+    height: 20px;
+    left: 845px;
+    top: 245px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #304156;
+}
+.select select {
+    position: absolute;
+    color: #304156;
+    width: 170px;
+    height: 35px;
+    left: 368px;
+    right: 4px;
+    top: calc(50% - 50px/2 + 12px);
+    border: 0.5px solid #C7CFD6;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+}
+.select select:focus {
+    background-color: rgb(239, 247, 244);
+}
+#select1 {
+    position: absolute;
+    height: 35px;
+    width: 170px;
+    color: #304156;
+    left: 600px;
+    right: 4px;
+    top: calc(50% - 50px/2 + 12px);
+    border: 0.5px solid #C7CFD6;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+}
+#select2 {
+    position: absolute;
+    height: 35px;
+    width: 170px;
+    color: #304156;
+    left: 840px;
+    right: 0.25px;
+    top: calc(50% - 50px/2 + 13.98px);
+    border: 0.5px solid #C7CFD6;
+    box-sizing: border-box;
+    border-radius: 4px;
+    outline: none;
+}
+.water {
+    position: absolute;
+    border: 0.5px solid #C7CFD6;
+    border-radius: 4px;
+    padding: 5px;
+    width: 170px;
+    height: 35px;
+    align-items: center;
+    left: 4.50%;
+    right: 8.04%;
+    bottom: 27.1%;
+}
+#select3 {
+    border: none;
+    outline: none;
+    width: 130px;
+}
+.water1 {
+    position: absolute;
+    left: 89%;
+    right: 8.04%;
+    top: 40.53%;
+    bottom: 27.1%;
+    background: white;
+    border-radius: 0.3px;
+}

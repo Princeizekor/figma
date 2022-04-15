@@ -1,0 +1,10 @@
+document.getElementById("menu").innerHTML = "Hello World";
+document.getElementById("menu").style.color = "yellow";
+document.getElementById("menu").style.fontSize = "50px";
+alert(10 + 10);
+console.log(15 + 15);
+var x, y, z;
+var x = 10;
+var y = 10;
+var z = x + y;
+document.getElementById("sharp").innerHTML = "The value of z is " + z ;

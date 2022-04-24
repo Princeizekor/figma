@@ -31,6 +31,14 @@ ourArray.shift();
 ourArray.unshift("Happy");
 document.getElementById("note").innerHTML = ourArray;
 
+function testStrict(val) {
+    if (val == 7) { // Change this line
+      return "Equal";
+    }
+    return "Not Equal";
+  }
+  
+  testStrict(10);
 // const myArray = [["people "], ["party "]];
 // myArray.pop(["tomorrow"], ["sweet"]);
 // document.getElementById("Proud").innerHTML = myArray;

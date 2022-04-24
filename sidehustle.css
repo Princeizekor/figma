@@ -1,0 +1,720 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+}
+nav {
+    width: 100%;
+    height: 120px;
+    padding: 50px;
+    background-color:  hsl(217, 28%, 15%);
+    position: sticky;
+    top: 0%;
+    z-index: 1000000;
+}
+nav img {
+    width: 100px;
+}
+nav ul {
+    display: flex;
+    float: right;
+}
+nav ul li {
+    padding: 10px 15px 10px 10px;
+    list-style-type: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color:hsl(0, 0%, 100%);
+}
+.hold {
+    width: 100%;
+    height: auto;
+    background-color: hsl(217, 28%, 15%);
+    text-align: center;
+    align-items: center;
+}
+.sure {
+    background-image: url("./images/bg-curvy-desktop.svg");
+    width: 100%;
+    height: 65vh;
+    top: 100px;
+}
+.pass {
+    font-size: 50px;
+    padding: 50px 200px 50px 200px;
+}
+.pass1 {
+    font-size: 23px;
+    opacity: 50%;
+}
+.pass2 {
+    font-size: 23px;
+    opacity: 50%;
+    padding: 0px 350px 0px 350px;
+    margin-bottom: 20px;
+}
+.get {
+    background-color: hsl(198, 60%, 50%);
+    padding: 10px;
+    border-radius: 50px;
+    width: 300px;
+    font-size: 23px;
+    text-align: center;
+    margin: 0% auto;
+    transition: 0.5s all ease;
+}
+.get:hover {
+    background-color: hsl(176, 68%, 64%);
+    transition: 0.5s all ease;
+}
+.wrapper {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.wrap1 {
+    display: flex;
+    justify-content: space-between;
+}
+.join {
+    padding: 0px 75px 0px 75px;
+}
+.join1 {
+    padding: 0px 75px 0px 75px;
+}
+.style {
+    font-size: 25px;
+}
+.wrap2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.join2 {
+    width: 50%;
+    padding: 0px 50px 0px 50px;
+}
+.join3 {
+    width: 50%;
+    padding: 0px 80px 0px 80px;
+}
+.wrapper1 {
+    display: flex;
+    width: 100%;
+    padding: 50px 100px 50px 100px;
+    justify-content: space-between;
+}
+.wrapper1 img {
+    width: 47%;
+}
+.wrap3 {
+    width: 47%;
+    padding: 100px 0px  100px 0px;
+}
+.wrap3 .tell {
+    margin-top: 20px;
+    color: hsl(198, 60%, 50%);
+    border-bottom: 1px solid hsl(198, 60%, 50%);
+}
+.wrap3 a {
+    text-decoration: none;
+}
+.wrap3 .tell:hover {
+    color: hsl(0, 0%, 100%);
+    border-bottom: 1px solid hsl(0, 0%, 100%);
+}
+.locate {
+    width: 30%;
+}
+.two {
+    width: 75%;
+    padding-right: 1px;
+}
+.break {
+    font-size: 36px;
+    font-weight: bold;
+}
+.now {
+    margin-top: 20px;
+}
+.now1 {
+    margin-top: 20px;
+}
+.wrapper2  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-between;
+}
+.good  {
+    display: flex;
+    position: relative;
+    width: 100%;
+    padding: 50px 100px 50px 100px;
+    justify-content: space-between;
+}
+.push {
+    position: absolute;
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 90px;
+}
+.pro  {
+    width: 32%;
+    height: auto;
+    background-color: hsl(219, 30%, 18%);
+    padding: 25px 15px 20px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.joe {
+    margin-bottom: 30px;
+}
+.flex-wrap {
+    display: flex;
+}
+.flex-wrap img {
+    width: 50px;
+    border-radius: 50px;
+}
+.sat {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+.sat strong {
+    font-size: 20px;
+}
+.pro1  {
+    width: 32%;
+    height: auto;
+    background-color: hsl(219, 30%, 18%);
+    padding: 25px 15px 20px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.pro2  {
+    width: 32%;
+    height: auto;
+    background-color: hsl(219, 30%, 18%);
+    padding: 25px 15px 20px 15px;
+    display: flex;
+    flex-direction: column;
+}
+.flex-wrap1 {
+    width: 100%;
+    height: 60vh;
+    align-items: center;
+    position: relative;
+}
+.email-box {
+    position: absolute;
+    width: 65%;
+    height: 45vh;
+    background-color: hsl(217, 28%, 15%);
+    margin-top: 15%;
+    margin-left: 18%;
+    text-align: center;
+    padding: 40px;
+}
+.margin {
+    margin-top: 20px;
+    width: 95%;
+}
+.early {
+    font-size: 30px;
+    font-weight: bold;
+}
+.place {
+    width: 100%;
+}
+.place input {
+    width: 68%;
+    padding: 15px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    margin-top: 30px;
+    left: 0%;
+}
+.place label {
+    width: 100%;
+    display: flex;
+}
+.well {
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: 30px;
+    color:hsl(0, 0%, 100%);
+    width: 200px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 50px;
+    background-color: hsl(198, 60%, 50%);
+    text-align: center;
+    border: none;
+    outline: none;
+    transition: 0.5s all ease;
+}
+.well:hover {
+    background-color:  hsl(176, 68%, 64%);
+    transition: 0.5s all ease;
+}
+footer {
+    width: 100%;
+    height: 70vh;
+    background-color: hsl(216, 53%, 9%);
+}
+#plan {
+    display: flex;
+}
+.plan {
+    width: 90px;
+    margin-top: 12%;
+    margin-left: 7%;
+}
+.plan1 {
+    display: flex;
+    width: 30%;
+    margin-top: 3%;
+    margin-left: 7%;
+}
+.plan1 img {
+    width: 20px;
+    height: 20px;
+    margin-top: 1%;
+    margin-right: 5%;
+}
+.plan2 {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-top: 3%;
+    margin-left: 5%;
+}
+.roll {
+    display: flex;
+}
+.plan2 img {
+    width: 20px;
+    height: 20px;
+    margin-top: 1%;
+    margin-right: 5%;
+}
+.roll1 {
+    display: flex;
+    margin-top: 8%;
+}
+.plan3 {
+    margin-top: 2%;
+    margin-left: 3%;
+    width: 15%;
+    display: flex;
+    justify-content: space-between;
+}
+.plain {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+.plain1 {
+    display: flex;
+    flex-direction: column;
+    line-height: 40px;
+}
+.plan4 {
+    margin-top: 3%;
+    margin-left: 3%;
+    display: flex;
+    width: auto;
+}
+.plan4 img {
+    width: 35px;
+    height: 35px;
+    margin: 0% auto;
+}
+.plan4 .in {
+    width: 30px;
+    height: 30px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+.plan4 .img1 {
+    padding: 7px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    border: 1px  solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.plan4 .in1 {
+    border-radius: 25px;
+    background: hsl(0, 0%, 100%);
+}
+.plan4 .img2 {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    border: 1px  solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+    margin-right: 10px;
+}
+.plan4 .img3 {
+    padding: 10px;
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    border: 1px  solid hsl(0, 0%, 100%);
+    border-radius: 50px;
+}
+.none {
+    display: none;
+}
+.print {
+    display: none;
+}
+.drill {
+    display: none;
+}
+.push1 {
+    display: none;
+}
+@media screen and (max-width: 767px) {
+    nav {
+        width: 100%;
+        height: 100px;
+        padding: 20px;
+        background-color:  hsl(217, 28%, 15%);
+        position: sticky;
+        top: 0%;
+        z-index: 1000000;
+    }
+    nav img {
+        width: 80px;
+    }
+    nav ul {
+        display: flex;
+        float: right;
+    }
+    nav ul li {
+        padding: 5px 0px 5px 15px;
+        list-style-type: none;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color:hsl(0, 0%, 100%);
+    }
+    .hold {
+        width: 100%;
+        height: auto;
+        background-color: hsl(217, 28%, 15%);
+        text-align: center;
+        align-items: center;
+        padding: 0px;
+    }
+    .hold img {
+        width: 100%;
+    }
+    .sure {
+        display: none;
+    }
+    .black {
+        display: none;
+    }
+    .print {
+        display: block;
+        background-size: cover;
+        background-image: url("./images/bg-curvy-mobile.svg");
+        bottom: 0%;
+        width: 100%;
+        height: 35vh;
+    }
+    .drill {
+        display: block;
+        top:  10%;
+    }
+    .pass {
+        font-size: 25px;
+        padding: 20px 0px 20px 0px;
+        font-weight: 500;
+    }
+    .pass1 {
+        display: none;
+    }
+    .pass2 {
+        display: none;
+    }
+    .none {
+        margin-top: 15px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .get {
+        background-color: hsl(198, 60%, 50%);
+        padding: 15px;
+        border-radius: 50px;
+        width: 300px;
+        font-size: 20px;
+        text-align: center;
+        margin: 0% auto;
+        transition: 0.5s all ease;
+    }
+    .get:hover {
+        background-color: hsl(176, 68%, 64%);
+        transition: 0.5s all ease;
+    }
+    .wrapper {
+        padding: 0%;
+        margin: 0%;
+    }
+    .wrap1 {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 50%;
+    }
+    .wrap2 {
+        width: 100%;
+        flex-direction: column;
+        margin-top: 20%;
+        margin: 0%;
+        padding: 0%;
+    }
+    .join1 {
+        margin-top: 20%;
+        width: 100%;
+    }
+    .join2 {
+        width: 100%;
+        margin-top: 20%;
+    }
+    .join3 {
+        width: 100%;
+        margin-top: 20%;
+    }
+    .join4 {
+        width: 100%;
+        margin-top: 20%;
+    }
+    .wrapper1 {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .wrapper1 img {
+        width: 100%;
+        margin-top: 40%;
+        margin-bottom: 10%;
+    }
+    .wrap3 {
+        width: 100%;
+        padding: 0%;
+    }
+    .two {
+        width: 100%
+    }
+    .break {
+        font-size: 28px;
+    }
+    .now {
+        font-size: 19px;
+    }
+    .now1 {
+        font-size: 19px;
+    }
+    .locate {
+        width: 40%;
+    }
+    .wrapper2 {
+        padding: 0px;
+    }
+    .good {
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+    }
+    .push {
+        display: none;
+    }
+    .push1 {
+        display: block;
+        position: absolute;
+        width: 40px;
+        margin-top: 1.8%;
+        margin-left: 10%;
+    }
+    .pro {
+        width: 100%;
+    }
+    .pro1 {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .pro2 {
+        width: 100%;
+        margin-top: 30px;
+    }
+    .flex-wrap1 {
+        padding: 20px;
+    }
+    .email-box {
+        width: 90%;
+        height: auto;
+        margin-left: 0%;
+        border-radius: 20px;
+        margin-top: 25%;
+    }
+    .place {
+        display: flex;
+        flex-direction: column;
+    }
+    .place input {
+        width: 100%;
+        padding: 25px;
+    }
+    .place button {
+        width: 100%;
+        margin-left: 0%;
+        padding: 20px;
+    }
+    .place label {
+        display: flex;
+        flex-direction: column;
+    }
+    footer {
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+    .plan {
+        width: 250px;
+        margin-top: 55%;
+        margin-bottom: 10%;
+    }
+    #plan {
+        display: flex;
+        flex-direction: column;
+    }
+    .plan1 img {
+        width: 30px;
+        height: 30px;
+        margin-top: 3%;
+    }
+    .plan1 {
+        width: 90%;
+        font-size: 22px;
+    }
+    .plan2 {
+        width: 90%;
+        font-size: 22px;
+    }
+    .roll1 {
+        margin-top: 10%;
+    }
+    .plan3 {
+        width: 90%;
+        flex-direction: column;
+    }
+    .plain {
+        width: 100%;
+        margin-top: 20%;
+    }
+    .plain p {
+        font-size: 25px;
+        margin-left: 5%;
+    }
+    .plain1 p {
+        font-size: 25px;
+        margin-left: 5%;
+    }
+    .plain1 {
+        width: 100%;
+        margin-top: 20%;
+    }
+    .plan4 {
+        width: 90%;
+        padding: 100px 0px 100px 130px;
+    }
+}
+@media screen and (max-width: 1023px) {
+    .pass {
+        font-size: 30px;
+    }
+    .pass1 {
+        font-size: 18px;
+    }
+    .pass2 {
+        font-size: 18px;
+    }
+    .get {
+        margin-bottom: 20%;
+    }
+    .join {
+        width: 100%;
+    }
+    .join3 .style {
+        font-size: 20px;
+    }
+    .join .style {
+        font-size: 17px;
+    }
+    .join p {
+        font-size: 13px;
+    }
+    .join1 .style {
+        font-size: 20px;
+    }
+    .join1 p {
+        font-size: 15px;
+    }
+    .join2 .style {
+        font-size: 20px;
+    }
+    .join2 p {
+        font-size: 15px;
+    }
+    .join3 p {
+        font-size: 15px;
+    }
+    .wrapper1 {
+        width: 100%;
+    }
+    .wrapper1 img {
+        width: 50%;
+        height: auto;
+        object-fit: contain;
+    }
+    .break {
+        font-size: 25px;
+    }
+    .locate {
+        width: 47%;
+    }
+    .flex-wrap img {
+        width: 40px;
+        height: 40px;
+        object-fit: contain;
+    }
+    .flex-wrap p {
+        font-size: 15px;
+    }
+    .email-box {
+        margin-top: 20%;
+        border-radius: 20px;
+    }
+    #plan {
+        padding-left: 0%;
+    }
+}

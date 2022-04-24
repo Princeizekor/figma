@@ -119,6 +119,12 @@ nav ul li a:hover {
     padding: 50px 100px 50px 100px;
     justify-content: space-between;
 }
+.good {
+    display: flex;
+}
+.seperate {
+    display: flex;
+}
 .wrapper1 img {
     width: 47%;
 }
@@ -220,6 +226,12 @@ nav ul li a:hover {
     padding: 25px 15px 20px 15px;
     display: flex;
     flex-direction: column;
+}
+.grey {
+    display: block;
+}
+.great {
+    display: none;
 }
 .pro2  {
     width: 32%;
@@ -613,18 +625,24 @@ footer {
         border-radius: 20px;
         margin-top: 30%;
     }
+    .early {
+        font-size: 22px;
+    }
+    .margin {
+        font-size: 20px;
+    }
     .place {
         display: flex;
         flex-direction: column;
     }
     .place input {
         width: 100%;
-        padding: 25px;
+        padding: 15px;
     }
     .place button {
         width: 100%;
         margin-left: 0%;
-        padding: 20px;
+        padding: 10px;
     }
     .place label {
         display: flex;
@@ -637,7 +655,7 @@ footer {
     }
     .plan {
         width: 250px;
-        margin-top: 55%;
+        margin-top: 90%;
         margin-bottom: 10%;
     }
     #plan {
@@ -682,129 +700,419 @@ footer {
     }
     .plan4 {
         width: 90%;
-        padding: 80px 0px 80px 100px;
+        padding: 80px 0px 80px 80px;
+    }
+    .grey {
+        display: block;
+    }
+    .great {
+        display: none;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
+    nav {
+        width: 100%;
+        height: 10px;
+        padding: 40px 50px 40px 50px;
+        background-color:  hsl(217, 28%, 15%);
+        position: sticky;
+        top: 0%;
+        z-index: 1000000;
+    }
+    .hold {
+        width: 100%;
+        height: auto;
+        background-color: hsl(217, 28%, 15%);
+        text-align: center;
+        align-items: center;
+    }
+    .sure {
+        background-image: url("./images/bg-curvy-desktop.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        bottom: 0%;
+        width: 100%;
+        height: 20vh;
+    }
     .pass {
         font-size: 30px;
+        padding: 50px;
     }
     .pass1 {
-        font-size: 20px;
+        font-size: 23px;
+        opacity: 100%;
     }
     .pass2 {
-        font-size: 20px;
+        font-size: 23px;
+        opacity: 100%;
+        padding: 0px 100px 0px 100px;
     }
     .get {
+        background-color: hsl(198, 60%, 50%);
+        padding: 10px;
+        border-radius: 50px;
+        min-width: 300px;
+        font-size: 23px;
+        text-align: center;
+        margin-top: 5%;
         margin-bottom: 20%;
+        transition: 0.5s all ease;
+    }
+    .get:hover {
+        background-color: hsl(176, 68%, 64%);
+        transition: 0.5s all ease;
+    }
+    .wrapper {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        padding: 100px 0px 100px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+    .wrap1 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20%;
+        width: 100%;
     }
     .join {
+        padding: 0px 50px 0px 50px;
+        width: 50%;
+    }
+    .join1 {
+        padding:  0px 50px 0px 50px;
+        width: 50%;
+    }
+    .style {
+        font-size: 25px;
+    }
+    .wrap2 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
         width: 100%;
     }
-    .join3 .style {
-        font-size: 20px;
+    .join2 {
+        width: 50%;
+        padding: 0px 50px 0px 50px;
     }
-    .join .style {
-        font-size: 17px;
-    }
-    .join p {
-        font-size: 13px;
-    }
-    .join1 .style {
-        font-size: 20px;
-    }
-    .join1 p {
-        font-size: 15px;
-    }
-    .join2 .style {
-        font-size: 20px;
-    }
-    .join2 p {
-        font-size: 15px;
-    }
-    .join3 p {
-        font-size: 15px;
+    .join3 {
+        width: 50%;
+        padding: 0px 50px 0px 50px;
     }
     .wrapper1 {
+        display: flex;
         width: 100%;
+        padding: 20px;
+        justify-content: space-between;
+        margin-bottom: 20%;
     }
     .wrapper1 img {
-        width: 50%;
-        height: auto;
+        width: 48%;
         object-fit: contain;
     }
-    .break {
-        font-size: 25px;
+    .wrap3 {
+        width: 47%;
+        padding: 0px;
+    }
+    .locate .tell {
+        margin-top: 20px;
+        color: hsl(198, 60%, 50%);
+    }
+    .locate a {
+        text-decoration: none;
+    }
+    .locate .tell:hover {
+        color: hsl(0, 0%, 100%);
+    }
+    .locate:hover {
+        border-bottom: 1px solid hsl(0, 0%, 100%);
     }
     .locate {
         width: 50%;
-        border: none;
+        display: flex;
+        border-bottom: 1px solid hsl(198, 60%, 50%);
     }
-    .locate .enjoy {
+    .enjoy {
+        float: right;
+    }
+    .locate img {
         width: 20px;
         height: 20px;
         margin-top: 20px;
         margin-left: 2%;
         object-fit: contain;
     }
-    .locate .tell {
-        border-bottom: 1px solid hsl(198, 60%, 50%);
-        margin-bottom: 0%;
-        font-size: 14px;
+    .two {
+        width: 75%;
+        padding-right: 1px;
     }
-    .locate .tell:hover {
-        border-bottom: 1px solid hsl(0, 0%, 100%);
-        margin-bottom: 0%;
+    .break {
+        font-size: 36px;
+        font-weight: bold;
     }
-    .locate:hover {
-        border: none;
+    .now {
+        margin-top: 20px;
+    }
+    .now1 {
+        margin-top: 20px;
+    }
+    .wrapper2  {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .good  {
+        display: flex;
+        flex-direction: column;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        padding: 50px 40px 50px 40px;
+        justify-content: space-between;
+    }
+    .seperate {
+        display: flex;
+        justify-content: space-between;
+    }
+    .grey {
+        display: none;
+    }
+    .great {
+        display: block;
+    }
+    .push {
+        position: absolute;
+        width: 50px;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .pro  {
+        width: 47%;
+        height: auto;
+        background-color: hsl(219, 30%, 18%);
+        padding: 25px 15px 20px 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .joe {
+        margin-bottom: 30px;
+    }
+    .flex-wrap {
+        display: flex;
     }
     .flex-wrap img {
-        width: 40px;
-        height: 40px;
-        object-fit: contain;
+        width: 50px;
+        border-radius: 50px;
     }
-    .flex-wrap p {
-        font-size: 15px;
+    .sat {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .sat strong {
+        font-size: 20px;
+    }
+    .pro1  {
+        width: 47%;
+        height: auto;
+        background-color: hsl(219, 30%, 18%);
+        padding: 25px 15px 20px 15px;
+        display: flex;
+        flex-direction: column;
+    }
+    .pro2  {
+        width: 47%;
+        height: auto;
+        background-color: hsl(219, 30%, 18%);
+        padding: 25px 15px 20px 15px;
+        display: flex;
+        margin-top: 5%;
+        flex-direction: column;
     }
     .flex-wrap1 {
+        width: 100%;
+        height: 400px;
+        align-items: center;
         position: relative;
     }
     .email-box {
         position: absolute;
-        margin-top: 20%;
-        border-radius: 20px;
-        width: 85%;
-        margin-left: 8%;
+        width: 70%;
         height: auto;
+        background-color: hsl(217, 28%, 15%);
+        margin-top: 30%;
+        margin-left: 15%;
+        text-align: center;
+        padding: 40px;
     }
-    .email-box .well {
+    .margin {
+        margin-top: 20px;
+        width: 95%;
+    }
+    .early {
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .place {
+        width: 100%;
+    }
+    .place input {
+        width: 68%;
+        padding: 15px;
+        border-radius: 50px;
+        border: none;
+        outline: none;
+        margin-top: 30px;
+        left: 0%;
+    }
+    .place label {
+        width: 100%;
+        display: flex;
+    }
+    .well {
+        padding: 10px;
+        margin-top: 30px;
+        margin-left: 30px;
+        color:hsl(0, 0%, 100%);
+        width: 200px;
         font-size: 15px;
+        font-weight: bold;
+        border-radius: 50px;
+        background-color: hsl(198, 60%, 50%);
+        text-align: center;
+        border: none;
+        outline: none;
+        transition: 0.5s all ease;
     }
-
-    #plan {
-        padding-left: 0%;
-    }
-    .sure {
-        background-repeat: no-repeat;
+    .well:hover {
+        background-color:  hsl(176, 68%, 64%);
+        transition: 0.5s all ease;
     }
     footer {
-        height: auto;
-    }
-    .print {
-        display: block;
-    }
-    .sure {
-        display: none;
-    }
-    .black {
-        display: none;
-    }
-    .print {
         width: 100%;
-        height: 40vh;
+        height: auto;
+        background-color: hsl(216, 53%, 9%);
+        padding-bottom: 80px;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #plan {
+        display: flex;
+    }
+    .plan {
+        width: 90px;
+        margin-top: 20%;
+        margin-left: 7%;
+    }
+    .plan1 {
+        display: flex;
+        width: 30%;
+        margin-top: 3%;
+        margin-left: 0%;
+    }
+    .plan1 img {
+        width: 20px;
+        height: 20px;
+        margin-top: 1%;
+        margin-right: 5%;
+    }
+    .plan2 {
+        display: flex;
+        flex-direction: column;
+        width: 20%;
+        margin-top: 3%;
+        margin-left: 5%;
+    }
+    .roll {
+        display: flex;
+    }
+    .plan2 img {
+        width: 20px;
+        height: 20px;
+        margin-top: 1%;
+        margin-right: 5%;
+    }
+    .roll1 {
+        display: flex;
+        margin-top: 8%;
+    }
+    .plan3 {
+        margin-top: 2%;
+        margin-left: 3%;
+        width: 15%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .plain {
+        display: flex;
+        flex-direction: column;
+        line-height: 40px;
+    }
+    .plain1 {
+        display: flex;
+        flex-direction: column;
+        line-height: 40px;
+    }
+    .plan4 {
+        margin-top: 3%;
+        margin-left: 3%;
+        display: flex;
+        width: auto;
+    }
+    .plan4 img {
+        width: 35px;
+        height: 35px;
+        margin: 0% auto;
+    }
+    .plan4 .in {
+        width: 30px;
+        height: 30px;
+        background: hsl(0, 0%, 100%);
+        border-radius: 10px;
+    }
+    .plan4 .img1 {
+        padding: 7px;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        border: 1px  solid hsl(0, 0%, 100%);
+        border-radius: 50px;
+        margin-right: 10px;
+    }
+    .plan4 .in1 {
+        border-radius: 25px;
+        background: hsl(0, 0%, 100%);
+    }
+    .plan4 .img2 {
+        padding: 10px;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        border: 1px  solid hsl(0, 0%, 100%);
+        border-radius: 50px;
+        margin-right: 10px;
+    }
+    .plan4 .img3 {
+        padding: 10px;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        border: 1px  solid hsl(0, 0%, 100%);
+        border-radius: 50px;
+    }
+    .none {
+        display: none;
+    }
+    .print {
+        display: none;
     }
     .drill {
-        display: block;
+        display: none;
+    }
+    .push1 {
+        display: none;
     }
 }

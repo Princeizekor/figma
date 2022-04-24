@@ -436,7 +436,7 @@ footer {
     }
     .hold {
         width: 100%;
-        height: auto;
+        height: 50vh;
         background-color: hsl(217, 28%, 15%);
         text-align: center;
         align-items: center;
@@ -551,7 +551,7 @@ footer {
         font-size: 19px;
     }
     .locate {
-        width: 40%;
+        width: 100%;
         border: none;
     }
     .locate .enjoy {
@@ -604,13 +604,14 @@ footer {
     }
     .flex-wrap1 {
         padding: 20px;
+        height: 50vh;
     }
     .email-box {
         width: 90%;
         height: auto;
         margin-left: 0%;
         border-radius: 20px;
-        margin-top: 25%;
+        margin-top: 30%;
     }
     .place {
         display: flex;
@@ -681,7 +682,7 @@ footer {
     }
     .plan4 {
         width: 90%;
-        padding: 100px 0px 100px 130px;
+        padding: 80px 0px 80px 100px;
     }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -689,10 +690,10 @@ footer {
         font-size: 30px;
     }
     .pass1 {
-        font-size: 18px;
+        font-size: 20px;
     }
     .pass2 {
-        font-size: 18px;
+        font-size: 20px;
     }
     .get {
         margin-bottom: 20%;
@@ -784,13 +785,26 @@ footer {
     #plan {
         padding-left: 0%;
     }
+    .sure {
+        background-repeat: no-repeat;
+    }
     footer {
         height: auto;
     }
     .print {
+        display: block;
+    }
+    .sure {
         display: none;
     }
-    .drill {
+    .black {
         display: none;
+    }
+    .print {
+        width: 100%;
+        height: 40vh;
+    }
+    .drill {
+        display: block;
     }
 }

@@ -35,6 +35,9 @@ nav ul li a {
     text-decoration: none;
     color:hsl(0, 0%, 100%);
 }
+nav ul li a:hover {
+    text-decoration: underline;
+}
 .hold {
     width: 100%;
     height: auto;
@@ -123,20 +126,33 @@ nav ul li a {
     width: 47%;
     padding: 100px 0px  100px 0px;
 }
-.wrap3 .tell {
+.locate .tell {
     margin-top: 20px;
     color: hsl(198, 60%, 50%);
-    border-bottom: 1px solid hsl(198, 60%, 50%);
 }
-.wrap3 a {
+.locate a {
     text-decoration: none;
 }
-.wrap3 .tell:hover {
+.locate .tell:hover {
     color: hsl(0, 0%, 100%);
+}
+.locate:hover {
     border-bottom: 1px solid hsl(0, 0%, 100%);
 }
 .locate {
-    width: 30%;
+    width: 31%;
+    display: flex;
+    border-bottom: 1px solid hsl(198, 60%, 50%);
+}
+.enjoy {
+    float: right;
+}
+.locate img {
+    width: 20px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 2%;
+    object-fit: contain;
 }
 .two {
     width: 75%;
@@ -515,8 +531,8 @@ footer {
     }
     .wrapper1 img {
         width: 100%;
-        margin-top: 40%;
-        margin-bottom: 10%;
+        height: 100%;
+        margin: 20% auto;
     }
     .wrap3 {
         width: 100%;
@@ -536,6 +552,26 @@ footer {
     }
     .locate {
         width: 40%;
+        border: none;
+    }
+    .locate .enjoy {
+        width: 20px;
+        height: 20px;
+        margin-top: 20px;
+        margin-left: 2%;
+        object-fit: contain;
+    }
+    .locate .tell {
+        border-bottom: 1px solid hsl(198, 60%, 50%);
+        margin-bottom: 0%;
+        font-size: 15px;
+    }
+    .locate .tell:hover {
+        border-bottom: 1px solid hsl(0, 0%, 100%);
+        margin-bottom: 0%;
+    }
+    .locate:hover {
+        border: none;
     }
     .wrapper2 {
         padding: 0px;
@@ -648,7 +684,7 @@ footer {
         padding: 100px 0px 100px 130px;
     }
 }
-@media screen and (max-width: 1023px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
     .pass {
         font-size: 30px;
     }
@@ -700,7 +736,27 @@ footer {
         font-size: 25px;
     }
     .locate {
-        width: 47%;
+        width: 50%;
+        border: none;
+    }
+    .locate .enjoy {
+        width: 20px;
+        height: 20px;
+        margin-top: 20px;
+        margin-left: 2%;
+        object-fit: contain;
+    }
+    .locate .tell {
+        border-bottom: 1px solid hsl(198, 60%, 50%);
+        margin-bottom: 0%;
+        font-size: 14px;
+    }
+    .locate .tell:hover {
+        border-bottom: 1px solid hsl(0, 0%, 100%);
+        margin-bottom: 0%;
+    }
+    .locate:hover {
+        border: none;
     }
     .flex-wrap img {
         width: 40px;
@@ -710,11 +766,31 @@ footer {
     .flex-wrap p {
         font-size: 15px;
     }
+    .flex-wrap1 {
+        position: relative;
+    }
     .email-box {
+        position: absolute;
         margin-top: 20%;
         border-radius: 20px;
+        width: 85%;
+        margin-left: 8%;
+        height: auto;
     }
+    .email-box .well {
+        font-size: 15px;
+    }
+
     #plan {
         padding-left: 0%;
+    }
+    footer {
+        height: auto;
+    }
+    .print {
+        display: none;
+    }
+    .drill {
+        display: none;
     }
 }
